@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.loader{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    background-color: black;
+    border: 10px solid black;
+    border-top: 10px solid white;
+    border-left: 10px solid white;
+    animation: loader 1s linear 0s infinite normal;
+    color: white;
+}
+
+@keyframes loader{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
